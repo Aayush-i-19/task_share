@@ -1,0 +1,176 @@
+
+ 
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-image: url('images/images.jpeg'); /* Path to your image */
+
+         background-size: cover; /* Ensures the image covers the whole screen */
+         background-position:center; /* Centers the image */
+       background-attachment: fixed;
+         background-repeat: no-repeat; /* Prevents the image from repeating */
+         margin-bottom: -600px;
+}
+
+.nav{
+    margin-top: 5px;
+  display: flex;
+ column-gap: 100px;
+ justify-content: end;
+ margin-right: 100px;
+ margin-top: 32.5px;
+  
+  
+  font-size: 27px;
+   color: #fff;
+
+
+
+}
+
+.portfolio{
+    color: black;
+    font-size: 30px;
+    left: 10px;
+    padding:10px;
+    margin: 10px;
+    font-display:inherit;
+    font-weight: bold;
+    top: 10px;
+    position:fixed
+    
+}
+
+     .cartoon-girl {
+         position:absolute; /* Fixes the image at a specific position */
+         bottom: 0;
+         top:0%;
+         left: 80%; /* Centers the image horizontally */
+         transform: translateX(-50%); /* Corrects the center alignment */
+         width: 1800px; /* Adjust the image size */
+         height:max-content; /* Keeps the aspect ratio intact */
+         transition: transform 0.3s ease; /* Smooth animation */
+  
+     }
+
+     .info{
+        background-color: #ff7e5f;
+        color:#fef6f6;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 85px;
+        padding-top: 0%;
+        margin-top: 1px;
+        font-weight: bolder;
+    
+        
+        
+        
+        
+    
+        
+      
+       
+
+
+
+     }
+
+    .name{
+        background-color: #ff7e5f;
+        color:white;
+        transition: 0.5s ease;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-top: 3%;
+        margin-top: 2px;
+        font-size: 52px;
+        
+    
+        
+
+    }
+
+
+    .sub-info{
+        background-color: #ff7e5f;
+        color:white;
+        transition: 0.5s ease;
+        font-family:cursive;
+        padding-top: 5%;
+        margin-top: 4px;
+        font-size: 20px;
+        font-style:italic;
+
+    }
+
+
+
+
+
+         
+/* Style the main text container */
+.main-text {
+         background-color: #ff7e5f; /* A warm color for the background */
+         padding: 100px 40px 80px 60px;
+         border-radius: 20px;
+         box-shadow: 10 4px 20px rgba(0, 0, 0, 0.2);
+         width: 35%;
+        margin-left: 150px;
+        z-index: 300;
+        position: relative;
+        margin-top: 60px;
+     }
+     
+     /* Style the heading */
+     .main-text h1 {
+         font-size: 4rem;
+         color: #fff;
+         animation: textGlow 2s ease-in-out infinite alternate; /* Glow animation */
+         margin-bottom: 20px;
+         
+     }
+
+     .about{
+        color:#e0c7c1;
+        font-size: 30px;
+        font-style:italic;
+        font-weight: lighter;
+        margin-left: 25px;
+        align-content: space-between;
+        padding-left: 50px;
+        text-align:left;
+        padding-top: 115px;
+     }
+
+     .Footer{
+        display: flex;
+        font-size: 40px;
+        column-gap: 40PX;
+        padding-left: 10px;
+        bottom: 20px;
+       
+       margin-top: 600px;
+        font-family: 'Times New Roman', Times, serif;
+       text-decoration: underline;
+      
+     }
+     
+
+     
+
+     .insta{
+        background-color:#ff7e5f;
+        margin-bottom: 7px;
+        border-radius: 10px;
+     }
+     
+     .fb{
+        background-color:#ff7e5f;
+        margin-bottom: 7px;
+        border-radius: 10px;
+     }
+     .lin{
+        background-color:#ff7e5f;
+        margin-bottom: 7px;
+        border-radius: 10px;}
